@@ -49,10 +49,10 @@ String_Calculator &String_Calculator :: DividedBy (const string str)
     
     while (found != string::npos)
     {
-        cout<<"found :"<<found<<"times:"<<times<<endl;
+
         times++;
         found = this->s.find(str,found + 1);
-        cout<<"found :"<<found<<"times:"<<times<<endl;
+
     }
     return *this;
 }
